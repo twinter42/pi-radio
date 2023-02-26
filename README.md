@@ -7,7 +7,7 @@ Rasperry Pi internet radio using Music Player Daemon (mpd). It was built inside 
 ```bash
 $ sudo apt-get install python-rpi.gpio mpd mpc
 ```
-The script is looking for a playlist at `/var/lib/mpd/playlists/internetsender.m3u`.
+The script is looking for a playlist at `/var/lib/mpd/playlists/sender.m3u`.
 
 ## Auto-start radio after reboot
 Start the script `launcher.sh` by making a new cronjob
